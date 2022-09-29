@@ -3,11 +3,35 @@
 img  {
   border: 1px solid #C0C0C0;
   padding: 5px;
-  height: auto; 
-  width: auto; 
   max-width: 150px; 
   max-height: 100px;
 }
 img:hover  {
   box-shadow: 3px 2px 4px #97a8f7;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+
+li {
+  text-decoration: none;
+  font-size: 7px;
+  color: grey;
+  line-height: 9pt;
+  text-align: left;
+  vertical-align: top;
+}
+
+.small {
+  text-decoration: none;
+  font-size: 8px;
+  line-height: 10pt;
+  text-align: left;
+  vertical-align: top;
 }

@@ -1,6 +1,5 @@
 
 import cheerio from 'cheerio';
-import fs from 'fs';
 import xmlhttprequest from 'xmlhttprequest';
 
 
@@ -19,7 +18,7 @@ const getRawData = (URL) => {
     xhr.open('GET', URL, false);
     xhr.send();
     return xhr.responseText;
- };n
+ };
  const realTrim = (str) => {
   return str.trim().replace(/[\n\t\r]/g,"").replace(/\s+/g, ' ').trim();
  };
@@ -54,16 +53,16 @@ const getRawData = (URL) => {
     let type = '';
     let location = '';
     $(this).find('.details').find('.value').each(function (idx, el) {
-      if(idx == 0){
+      if(idx === 0){
         amount = parseFloat(numberTrim($(el).text()));
       }
-      if(idx == 1){
+      if(idx === 1){
         type = $(el).text();
       }
-      if(idx == 2){
+      if(idx === 2){
         location = $(el).text();
       }
-      if(idx == 3){
+      if(idx === 3){
         periode = parseFloat(numberTrim($(el).text()));
       }
 
@@ -81,7 +80,7 @@ const getRawData = (URL) => {
     ret.push({plateform, type, title, location, url, img, state, description, profit, amount, periode, date,documents});
    });
   
-   fs.writeFileSync('src/resultat/upstone.json',JSON.stringify(ret,null,4));
+   //fs.writeFileSync('src/resultat/upstone.json',JSON.stringify(ret,null,4));
    return ret;
    
  }
@@ -115,11 +114,11 @@ const getRawData = (URL) => {
      let type = 'Marchand de biens';
      let location = realTrim($(this).find('.mb-0').text().substring(0,3));
      $(this).find('tbody').find('tr').each(function (idx, el) {
-       if(idx == 0){
+       if(idx === 0){
          amount = parseFloat(numberTrim(''+$(el).text()));
        }
        
-       if(idx == 2){
+       if(idx === 2){
         profit = parseFloat(numberTrim( (''+$(el).text()).substring(0,10) ));
         periode = parseFloat(numberTrim( (''+$(el).text()).substring(18) ));
        }
@@ -140,7 +139,7 @@ const getRawData = (URL) => {
     
     });
    
-    fs.writeFileSync('src/resultat/lapremierebrique.json',JSON.stringify(ret,null,4));
+   // fs.writeFileSync('src/resultat/lapremierebrique.json',JSON.stringify(ret,null,4));
     return ret;
     
   }
@@ -173,18 +172,22 @@ const getRawData = (URL) => {
      ret.push({plateform, type, title, location, url, img, state, description, profit, amount, periode, date});
     });
 
-    fs.writeFileSync('src/resultat/clubFunding.json',JSON.stringify(ret,null,4));
+   // fs.writeFileSync('src/resultat/clubFunding.json',JSON.stringify(ret,null,4));
     return ret;
     
   }
 
-
+  function Scrap() {
   const result_upstone =   parseUpstone();
   const result_premiere =  parsePremiere();
   const result_club =   parseClub();
 
-  return JSON.stringify([...result_upstone, ...result_premiere, ...result_club],null,4);
+  return  <div className="Scrap">
+      {JSON.stringify([...result_upstone, ...result_premiere, ...result_club],null,4)} 
+      </div>
+  }
 
+  export default Scrap;
 
 
 
