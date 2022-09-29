@@ -6,12 +6,12 @@
         "location": "DROM-COM",
         "url": "https://www.clubfunding.fr/projets/projets/cambaie-la-reunion",
         "img": "https://api.clubfunding.fr/files/big_image/16643536710741664353671.jpg",
-        "state": "A venir",
+        "state": "Financé",
         "description": "Financer une opération de marchand de biens",
         "profit": 10.5,
         "amount": "3500000",
         "periode": 6,
-        "date": "2022-09-28"
+        "date": "2022-09-29"
     },
     {
         "plateform": "Club-funding",
