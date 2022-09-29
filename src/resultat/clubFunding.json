@@ -1,18 +1,31 @@
 [
     {
         "plateform": "Club-funding",
+        "type": "Marchand de biens",
+        "title": "CAMBAIE – LA REUNION",
+        "location": "DROM-COM",
+        "url": "https://www.clubfunding.fr/projets/projets/cambaie-la-reunion",
+        "img": "https://api.clubfunding.fr/files/big_image/16643536710741664353671.jpg",
+        "state": "A venir",
+        "description": "Financer une opération de marchand de biens",
+        "profit": 10.5,
+        "amount": "3500000",
+        "periode": 6,
+        "date": "2022-09-28"
+    },
+    {
+        "plateform": "Club-funding",
         "type": "Promotion",
         "title": "LUXURY PARK",
         "location": "Europe",
         "url": "https://www.clubfunding.fr/projets/projets/luxury-park",
         "img": "https://api.clubfunding.fr/files/big_image/16632587643081663258764.jpg",
-        "state": "A venir",
+        "state": "Financé",
         "description": "Financer une opération de promotion immobilière.",
         "profit": 10,
         "amount": "7500000",
         "periode": 24,
-        "date": "2022-09-27",
-        "documents": []
+        "date": "2022-09-28"
     },
     {
         "plateform": "Club-funding",
@@ -21,13 +34,12 @@
         "location": "Pays de la Loire",
         "url": "https://www.clubfunding.fr/projets/projets/avenue-du-president-roosevelt",
         "img": "https://api.clubfunding.fr/files/big_image/16642710973461664271097.jpg",
-        "state": "A venir",
+        "state": "Financé",
         "description": "Financer une opération de marchand de biens",
         "profit": 10,
         "amount": "700000",
         "periode": 24,
-        "date": "2022-09-27",
-        "documents": []
+        "date": "2022-09-28"
     },
     {
         "plateform": "Club-funding",
@@ -41,8 +53,7 @@
         "profit": 9,
         "amount": "550000",
         "periode": 12,
-        "date": "2022-09-27",
-        "documents": []
+        "date": "2022-09-27"
     },
     {
         "plateform": "Club-funding",
@@ -56,8 +67,7 @@
         "profit": 10,
         "amount": "280000",
         "periode": 12,
-        "date": "2022-09-27",
-        "documents": []
+        "date": "2022-09-27"
     },
     {
         "plateform": "Club-funding",
@@ -71,22 +81,6 @@
         "profit": 9,
         "amount": "550000",
         "periode": 24,
-        "date": "2022-09-27",
-        "documents": []
-    },
-    {
-        "plateform": "Club-funding",
-        "type": "Marchand de biens",
-        "title": "PHILIPPE AUGUSTE",
-        "location": "Île-de-France",
-        "url": "https://www.clubfunding.fr/projets/projets/philippe-auguste",
-        "img": "https://api.clubfunding.fr/files/big_image/16632474871181663247487.jpg",
-        "state": "Financé",
-        "description": "Financer une opération de marchand de biens",
-        "profit": 10,
-        "amount": "730000",
-        "periode": 24,
-        "date": "2022-09-26",
-        "documents": []
+        "date": "2022-09-27"
     }
 ]
