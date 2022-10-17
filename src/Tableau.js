@@ -99,13 +99,12 @@ export default class SortTable extends React.Component {
 
   listDocs(rowData, rowIndex) {
     if(rowData.documents && rowData.documents.length > 0){
-
-    return 
-    {rowData.documents.map(doc => (  
-      <li>  
-        <a href={doc.url}>{doc.title} ({doc.date}) </a>
-      </li>  
-    ))}
+      return 
+      {rowData.documents.map(doc => (  
+        <li>  
+          <a href={doc.url}>{doc.title} ({doc.date}) </a>
+        </li>  
+      ))}
   } else{
     return '';
   }
