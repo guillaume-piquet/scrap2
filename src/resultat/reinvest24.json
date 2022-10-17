@@ -1,0 +1,47 @@
+[
+    {
+        "plateform": "Reinvest24",
+        "type": "Promotion",
+        "title": "Dainas residential development - 7. stage",
+        "location": "Latvia",
+        "url": "https://www.reinvest24.com//en/project/36-dainas-residential-development",
+        "img": "https://storage.reinvest24.com/thumbnails/202209/000/679/378e149c073d38722ffb0cde00f74157/679.jpg)",
+        "state": "",
+        "description": "Dainas residential development - 7. stage",
+        "profit": "13% + 1%",
+        "amount": "€100,000",
+        "periode": "",
+        "date": "2022-09-01",
+        "documents": []
+    },
+    {
+        "plateform": "Reinvest24",
+        "type": "Promotion",
+        "title": "Lake residentials development - 4. stage",
+        "location": "Estonia",
+        "url": "https://www.reinvest24.com//en/project/53-lake-residentials-development",
+        "img": "https://storage.reinvest24.com/thumbnails/202206/000/586/aeff9b4d410e93c835012a6d7e9b1674/586.jpg)",
+        "state": "",
+        "description": "Lake residentials development - 4. stage",
+        "profit": "13% + 1%",
+        "amount": "€200,000",
+        "periode": "",
+        "date": "2022-06-01",
+        "documents": []
+    },
+    {
+        "plateform": "Reinvest24",
+        "type": "Promotion",
+        "title": "Kakumäe residential loan - 2. stage",
+        "location": "Estonia",
+        "url": "https://www.reinvest24.com//en/project/58-kakumae-residential-loan",
+        "img": "https://storage.reinvest24.com/thumbnails/202209/000/682/64d4b778f3b622b0885c0ab1e61dbb5c/682.jpg)",
+        "state": "",
+        "description": "Kakumäe residential loan - 2. stage",
+        "profit": "13% + 2%",
+        "amount": "€265,057",
+        "periode": "",
+        "date": "2022-09-01",
+        "documents": []
+    }
+]

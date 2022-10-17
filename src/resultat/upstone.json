@@ -1,12 +1,79 @@
 [
     {
         "plateform": "Upstone",
+        "type": "Résidentiel",
+        "title": "Victor Hugo",
+        "location": "Paris",
+        "url": "https://www.upstone.co/crowdfunding/victor-hugo",
+        "img": "https://www.upstone.co/thumb/uploads/3s/projet_photo/001/665/501/1665501149_634587dddbf17.png",
+        "state": "En audit",
+        "description": "Ce dossier vise à financier en partie l'acquisition d'un lot de copropriété à usage d'habitation, dans le XVIe arrondissement de Paris.",
+        "profit": "",
+        "amount": 1170000,
+        "periode": 12,
+        "date": "2022-10-14",
+        "documents": [
+            {
+                "title": "Bilan de l'opération",
+                "url": "https://www.upstone.co/crowdfunding/victor-hugo/documents",
+                "date": "14/10/2022"
+            },
+            {
+                "title": "Chiffre d'affaires",
+                "url": "https://www.upstone.co/crowdfunding/victor-hugo/documents",
+                "date": "14/10/2022"
+            },
+            {
+                "title": "Kbis société Emettrice et opérationnelle",
+                "url": "https://www.upstone.co/crowdfunding/victor-hugo/documents",
+                "date": "14/10/2022"
+            },
+            {
+                "title": "Statuts société Emettrice et Opérationnelle",
+                "url": "https://www.upstone.co/crowdfunding/victor-hugo/documents",
+                "date": "14/10/2022"
+            }
+        ]
+    },
+    {
+        "plateform": "Upstone",
+        "type": "Résidentiel",
+        "title": "Neokids -Saint-Parres",
+        "location": "Saint-Parres-aux-Tertres",
+        "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres",
+        "img": "https://www.upstone.co/thumb/uploads/3s/projet_photo/001/663/839/1663839683_632c2dc391030.png",
+        "state": "En audit",
+        "description": "Financement d'une crèche de 12 berceaux située à Saint-Parres-aux-Tertres.",
+        "profit": "",
+        "amount": 150000,
+        "periode": 10,
+        "date": "2022-09-19",
+        "documents": [
+            {
+                "title": "Kbis société Emettrice et opérationnelle",
+                "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres/documents",
+                "date": "19/09/2022"
+            },
+            {
+                "title": "Statuts société Emettrice et Opérationnelle",
+                "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres/documents",
+                "date": "19/09/2022"
+            },
+            {
+                "title": "Bilan de l'opération",
+                "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres/documents",
+                "date": "22/09/2022"
+            }
+        ]
+    },
+    {
+        "plateform": "Upstone",
         "type": "Commerces",
         "title": "Solu'up 02",
         "location": "Le Cellier",
         "url": "https://www.upstone.co/crowdfunding/solu-up-02",
         "img": "https://www.upstone.co/thumb/uploads/3s/projet_photo/001/662/715/1662715510_631b0676a1696.png",
-        "state": "En collecte",
+        "state": "Closing",
         "description": "Opération de portage immobilier solidaire",
         "profit": "",
         "amount": 324000,
@@ -47,37 +114,6 @@
                 "title": "DIRS",
                 "url": "https://www.upstone.co/crowdfunding/solu-up-02/documents",
                 "date": "19/09/2022"
-            }
-        ]
-    },
-    {
-        "plateform": "Upstone",
-        "type": "Résidentiel",
-        "title": "Neokids -Saint-Parres",
-        "location": "Saint-Parres-aux-Tertres",
-        "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres",
-        "img": "https://www.upstone.co/thumb/uploads/3s/projet_photo/001/663/839/1663839683_632c2dc391030.png",
-        "state": "En audit",
-        "description": "Financement d'une crèche de 12 berceaux située à Saint-Parres-aux-Tertres.",
-        "profit": "",
-        "amount": 150000,
-        "periode": 10,
-        "date": "2022-09-19",
-        "documents": [
-            {
-                "title": "Kbis société Emettrice et opérationnelle",
-                "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres/documents",
-                "date": "19/09/2022"
-            },
-            {
-                "title": "Statuts société Emettrice et Opérationnelle",
-                "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres/documents",
-                "date": "19/09/2022"
-            },
-            {
-                "title": "Bilan de l'opération",
-                "url": "https://www.upstone.co/crowdfunding/neokids-saint-parres/documents",
-                "date": "22/09/2022"
             }
         ]
     },
@@ -389,62 +425,6 @@
                 "title": "DIRS",
                 "url": "https://www.upstone.co/crowdfunding/la-musse/documents",
                 "date": "22/07/2022"
-            }
-        ]
-    },
-    {
-        "plateform": "Upstone",
-        "type": "Résidentiel",
-        "title": "Neokids - Versailles",
-        "location": "Versailles",
-        "url": "https://www.upstone.co/crowdfunding/neokids-versailles",
-        "img": "https://www.upstone.co/thumb/uploads/3s/projet_photo/001/656/936/1656936777_62c2d9495d7f3.png",
-        "state": "Financé",
-        "description": "Opération d'achat revente d'un local à usage de crèche situé à Versailles",
-        "profit": "",
-        "amount": 1540000,
-        "periode": 4,
-        "date": "2022-06-23",
-        "documents": [
-            {
-                "title": "Présentation Montessori",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "23/06/2022"
-            },
-            {
-                "title": "Kbis société Emettrice",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "28/06/2022"
-            },
-            {
-                "title": "Statuts société Emettrice",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "28/06/2022"
-            },
-            {
-                "title": "Bilan de l'opération",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "04/07/2022"
-            },
-            {
-                "title": "Rapport actif-passif",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "07/07/2022"
-            },
-            {
-                "title": "CEEO",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "08/07/2022"
-            },
-            {
-                "title": "PV de décision du Président - Emission obligataire",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "08/07/2022"
-            },
-            {
-                "title": "DIRS",
-                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
-                "date": "08/07/2022"
             }
         ]
     },
@@ -3358,6 +3338,62 @@
                 "title": "PV de constatation de la réalisation de l'émission",
                 "url": "https://www.upstone.co/crowdfunding/mama-works/documents",
                 "date": "05/11/2018"
+            }
+        ]
+    },
+    {
+        "plateform": "Upstone",
+        "type": "Résidentiel",
+        "title": "Neokids - Versailles",
+        "location": "Versailles",
+        "url": "https://www.upstone.co/crowdfunding/neokids-versailles",
+        "img": "https://www.upstone.co/thumb/uploads/3s/projet_photo/001/656/936/1656936777_62c2d9495d7f3.png",
+        "state": "Remboursé",
+        "description": "Opération d'achat revente d'un local à usage de crèche situé à Versailles",
+        "profit": "",
+        "amount": 1540000,
+        "periode": 4,
+        "date": "2022-06-23",
+        "documents": [
+            {
+                "title": "Présentation Montessori",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "23/06/2022"
+            },
+            {
+                "title": "Kbis société Emettrice",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "28/06/2022"
+            },
+            {
+                "title": "Statuts société Emettrice",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "28/06/2022"
+            },
+            {
+                "title": "Bilan de l'opération",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "04/07/2022"
+            },
+            {
+                "title": "Rapport actif-passif",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "07/07/2022"
+            },
+            {
+                "title": "CEEO",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "08/07/2022"
+            },
+            {
+                "title": "PV de décision du Président - Emission obligataire",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "08/07/2022"
+            },
+            {
+                "title": "DIRS",
+                "url": "https://www.upstone.co/crowdfunding/neokids-versailles/documents",
+                "date": "08/07/2022"
             }
         ]
     },
